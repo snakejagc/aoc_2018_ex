@@ -39,4 +39,10 @@ defmodule Dfalse1ChronalCalibrationTest do
       end
     end
   end
+
+  describe "find boxes with prototype fabric" do
+    it "should find it" do
+      InventoryManagementSystem.find_boxes("test/resources/02/input.txt")
+    end
+  end
 end
