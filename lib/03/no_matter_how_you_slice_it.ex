@@ -1,5 +1,4 @@
 defmodule NoMatterHowYouSliceIt do
-
   @no_claims "."
   @mult_claims "X"
   @matrix_size 1_500
@@ -63,7 +62,8 @@ defmodule NoMatterHowYouSliceIt do
       for _ <- 1..@matrix_size do
         @no_claims
       end
-    end |> Matrix.from_list()
+    end
+    |> Matrix.from_list()
   end
 
   defp read_input(path) do
@@ -78,6 +78,7 @@ defmodule NoMatterHowYouSliceIt do
     ["#" <> claim, _, margins, size] = split(line)
     [left_m, top_m, _] = split(margins, [",", ":"])
     [width, height] = split(size, "x")
+
     {
       to_integer(claim),
       to_integer(left_m),
