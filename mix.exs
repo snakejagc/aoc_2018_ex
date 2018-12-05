@@ -20,7 +20,8 @@ defmodule Aoc2018Ex.MixProject do
 
   defp deps do
     [
-      {:ex_spec, "~> 2.0", only: :test}
+      {:ex_spec, "~> 2.0", only: :test},
+      {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false}
     ]
   end
 end

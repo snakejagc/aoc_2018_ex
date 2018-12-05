@@ -17,7 +17,9 @@ defmodule NoMatterHowYouSliceIt do
   end
 
   defp find_legit_claim(mtx, claim_coords) do
-    Enum.find(claim_coords, &is_legit(&1, mtx)) |> elem(0)
+    claim_coords
+    |> Enum.find(&is_legit(&1, mtx))
+    |> elem(0)
   end
 
   defp is_legit({id, coords}, mtx) do
