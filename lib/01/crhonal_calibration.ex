@@ -1,4 +1,4 @@
-defmodule D01ChronalCalibration do
+defmodule ChronalCalibration do
   def frequency(path) when is_binary(path) do
     path
     |> read_input()
