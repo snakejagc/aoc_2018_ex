@@ -14,14 +14,16 @@ defmodule Aoc2018Ex.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger, :timex]
     ]
   end
 
   defp deps do
     [
       {:ex_spec, "~> 2.0", only: :test},
-      {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
+      {:timex, "~> 3.1"},
+      {:libgraph, "~> 0.7"}
     ]
   end
 end
