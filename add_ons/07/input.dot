@@ -1,0 +1,129 @@
+strict digraph {
+    "W"
+    "V"
+    "K"
+    "G"
+    "Y"
+    "E"
+    "A"
+    "J"
+    "P"
+    "I"
+    "L"
+    "U"
+    "Z"
+    "D"
+    "O"
+    "R"
+    "Q"
+    "F"
+    "H"
+    "M"
+    "N"
+    "X"
+    "C"
+    "B"
+    "T"
+    "S"
+    "W" -> "V" [weight=1]
+    "W" -> "P" [weight=1]
+    "W" -> "D" [weight=1]
+    "V" -> "P" [weight=1]
+    "K" -> "G" [weight=1]
+    "K" -> "L" [weight=1]
+    "K" -> "N" [weight=1]
+    "K" -> "T" [weight=1]
+    "G" -> "W" [weight=1]
+    "G" -> "J" [weight=1]
+    "G" -> "M" [weight=1]
+    "G" -> "N" [weight=1]
+    "G" -> "B" [weight=1]
+    "G" -> "T" [weight=1]
+    "Y" -> "W" [weight=1]
+    "Y" -> "J" [weight=1]
+    "Y" -> "I" [weight=1]
+    "Y" -> "L" [weight=1]
+    "Y" -> "N" [weight=1]
+    "Y" -> "T" [weight=1]
+    "E" -> "Y" [weight=1]
+    "E" -> "I" [weight=1]
+    "E" -> "Z" [weight=1]
+    "E" -> "D" [weight=1]
+    "E" -> "F" [weight=1]
+    "E" -> "B" [weight=1]
+    "A" -> "Z" [weight=1]
+    "A" -> "O" [weight=1]
+    "A" -> "R" [weight=1]
+    "A" -> "C" [weight=1]
+    "J" -> "V" [weight=1]
+    "J" -> "P" [weight=1]
+    "I" -> "V" [weight=1]
+    "I" -> "P" [weight=1]
+    "I" -> "L" [weight=1]
+    "I" -> "D" [weight=1]
+    "L" -> "V" [weight=1]
+    "L" -> "J" [weight=1]
+    "L" -> "F" [weight=1]
+    "L" -> "N" [weight=1]
+    "U" -> "G" [weight=1]
+    "U" -> "J" [weight=1]
+    "U" -> "I" [weight=1]
+    "U" -> "L" [weight=1]
+    "U" -> "Z" [weight=1]
+    "Z" -> "J" [weight=1]
+    "Z" -> "L" [weight=1]
+    "Z" -> "F" [weight=1]
+    "Z" -> "B" [weight=1]
+    "Z" -> "T" [weight=1]
+    "D" -> "J" [weight=1]
+    "D" -> "P" [weight=1]
+    "D" -> "F" [weight=1]
+    "O" -> "V" [weight=1]
+    "O" -> "Y" [weight=1]
+    "O" -> "E" [weight=1]
+    "O" -> "P" [weight=1]
+    "O" -> "Z" [weight=1]
+    "O" -> "M" [weight=1]
+    "R" -> "E" [weight=1]
+    "R" -> "I" [weight=1]
+    "R" -> "Z" [weight=1]
+    "R" -> "B" [weight=1]
+    "Q" -> "W" [weight=1]
+    "Q" -> "G" [weight=1]
+    "Q" -> "E" [weight=1]
+    "Q" -> "I" [weight=1]
+    "F" -> "J" [weight=1]
+    "F" -> "P" [weight=1]
+    "H" -> "K" [weight=1]
+    "H" -> "G" [weight=1]
+    "H" -> "F" [weight=1]
+    "H" -> "N" [weight=1]
+    "M" -> "P" [weight=1]
+    "M" -> "I" [weight=1]
+    "M" -> "L" [weight=1]
+    "M" -> "D" [weight=1]
+    "M" -> "B" [weight=1]
+    "N" -> "P" [weight=1]
+    "N" -> "B" [weight=1]
+    "N" -> "T" [weight=1]
+    "X" -> "J" [weight=1]
+    "X" -> "I" [weight=1]
+    "X" -> "U" [weight=1]
+    "X" -> "F" [weight=1]
+    "X" -> "M" [weight=1]
+    "X" -> "B" [weight=1]
+    "X" -> "S" [weight=1]
+    "C" -> "K" [weight=1]
+    "C" -> "J" [weight=1]
+    "C" -> "S" [weight=1]
+    "B" -> "V" [weight=1]
+    "B" -> "J" [weight=1]
+    "B" -> "P" [weight=1]
+    "B" -> "F" [weight=1]
+    "T" -> "V" [weight=1]
+    "T" -> "J" [weight=1]
+    "T" -> "P" [weight=1]
+    "S" -> "K" [weight=1]
+    "S" -> "E" [weight=1]
+    "S" -> "D" [weight=1]
+}
